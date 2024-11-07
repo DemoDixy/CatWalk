@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    padding: 20px 0; /* Espaçamento em cima e embaixo */
+    background-color: #1277db; /* Cor de fundo do container */
+}
+
+.navbar {
+    background-color: #01b847; /* Cor fixa da barra de navegação */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(77, 16, 16); /* Cor padrão dos links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dbdbdb; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para os links ativos */
+.navbar-nav .nav-link[style*="color: white;"] {
+    color: rgb(231, 46, 46); /* Mantém a cor branca para a página ativa */
+}
+
+/* Estilo para o logotipo */
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    height: auto; /* Mantém a proporção da imagem */
+}
